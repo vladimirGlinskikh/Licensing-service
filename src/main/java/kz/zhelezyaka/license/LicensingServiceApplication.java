@@ -1,4 +1,4 @@
-package kz.zhelezyaka.Licensingservice;
+package kz.zhelezyaka.license;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
