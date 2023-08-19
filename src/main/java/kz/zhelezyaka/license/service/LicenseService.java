@@ -21,7 +21,7 @@ public class LicenseService {
         license.setLicenseId(licenseId);
         license.setOrganizationId(organizationId);
         license.setDescription("Software product");
-        license.setProductName("GStock");
+        license.setProductName("gstock");
         license.setLicenseType("full");
         return license;
     }
