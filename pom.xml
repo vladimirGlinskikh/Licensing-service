@@ -14,7 +14,7 @@
     <name>Licensing-service</name>
     <description>Experiment project for Spring Boot</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>19</java.version>
         <docker.image.prefix>gstock</docker.image.prefix>
     </properties>
     <dependencies>
@@ -64,6 +64,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <image>
+                        <name>${docker.image.prefix}/${project.artifactId}:latest</name>
+                    </image>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
